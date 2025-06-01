@@ -6,11 +6,14 @@ name = "pypi"
 [packages]
 langchain-groq = "*"
 langchain-openai = "*"
-langchain = "*"
-community = "*"
+langchain-community = "*"
+langgraph = "*"
 pydantic = "*"
+fastapi = "*"
+uvicorn = "*"
+streamlit = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+python_version = "3.11"

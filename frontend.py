@@ -37,7 +37,7 @@ if st.button("Ask Agent!"):
             "model_name": selected_model,
             "model_provider": provider,
             "system_prompt": system_prompt,
-            "messages": user_query,
+            "messages": [user_query],
             "allow_search": allow_web_search
         }
 
@@ -49,5 +49,6 @@ if st.button("Ask Agent!"):
             else:
                 st.subheader("Agent Response")
                 st.markdown(f"**Final Response:** {response_data}")
+
 
 
