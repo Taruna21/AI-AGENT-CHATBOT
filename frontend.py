@@ -36,7 +36,6 @@ if st.button("Ask Agent!"):
         payload={
             "model_name": selected_model,
             "model_provider": provider,
-            "system_prompt": system_prompt,
             "messages": [user_query],
             "allow_search": allow_web_search
         }
